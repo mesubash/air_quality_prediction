@@ -18,7 +18,7 @@ else:
     print("API Key loaded successfully.")
 
 # AirNow API URL for real-time air quality data
-API_URL = f"https://www.airnowapi.org/aq/observation/latLong/current/?format=application/json&latitude={LATITUDE}&longitude={LONGITUDE}&distance=25&API_KEY={API_KEY}"
+API_URLS = f"https://www.airnowapi.org/aq/observation/latLong/current/?format=application/json&latitude={LATITUDE}&longitude={LONGITUDE}&distance=25&API_KEY={API_KEY}"
 
 
 # Load datasets
