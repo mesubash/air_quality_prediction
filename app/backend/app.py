@@ -9,6 +9,9 @@ from utils.forecast import forecast_aqi
 app = Flask(__name__)
 CORS(app)
 
+def fetch_live_data():
+    
+    
 # Load trained models
 rf_model = joblib.load('models/trained_rf.pkl')
 

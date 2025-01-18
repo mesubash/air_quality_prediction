@@ -1,4 +1,4 @@
-datetime,o3,pm25,temperature_2m (°C),relative_humidity_2m (%),dew_point_2m (°C),precipitation (mm),rain (mm),pressure_msl (hPa),surface_pressure (hPa),cloud_cover (%),vapour_pressure_deficit (kPa),wind_speed_10m (km/h),wind_direction_10m (°),wind_gusts_10m (km/h)
+datetime,O3,PM2.5,Temperature,Humidity,Dew_Point,Precipitation,rain (mm),Pressure_MSL,surface_pressure (hPa),cloud_cover (%),vapour_pressure_deficit (kPa),Wind_Speed,Wind_Direction,wind_gusts_10m (km/h)
 2020-01-01 01:00:00,0.004,196.0,6.2,72,1.4,0.0,0.0,1022.7,875.1,95,0.27,5.1,176,16.2
 2020-01-01 02:00:00,0.001,164.0,6.4,74,2.1,0.0,0.0,1023.2,875.7,93,0.25,5.8,173,18.0
 2020-01-01 03:00:00,0.005,109.0,9.9,74,5.4,0.0,0.0,1024.5,878.4,91,0.32,5.8,173,18.4

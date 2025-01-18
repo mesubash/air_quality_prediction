@@ -2,6 +2,7 @@
 import pandas as pd
 import numpy as np 
 import glob
+from sklearn.preprocessing import MinMaxScaler
 
 
 def clean_merge():
@@ -82,13 +83,50 @@ def merge_data():
     # Reorder dataframe
     merged_df = merged_df[ordered_cols]
 
-  
+    merged_df.rename(columns={
+    
+        'o3': 'O3',
+        'pm25': 'PM2.5',
+        'temperature_2m (°C)': 'Temperature',
+        'relative_humidity_2m (%)': 'Humidity',
+        'dew_point_2m (°C)': 'Dew_Point',
+        'precipitation (mm)': 'Precipitation',
+        'pressure_msl (hPa)': 'Pressure_MSL',
+        'wind_speed_10m (km/h)': 'Wind_Speed',
+        'wind_direction_10m (°)': 'Wind_Direction'
+        
+        
+    }, inplace=True)
 
-    # Display first few rows
-    print(merged_df.head())
 
+    merged_df.head()
     # dataset = pd.concat([df_air,])
     return merged_df
+
+
+
+def preprocess_data(file_path):
+    # Load merged dataset
+    df = pd.read_csv(file_path)
+
+   # Select relevant columns for AQI prediction
+    df = df[['O3', 'PM2.5', 'Temperature', 'Humidity',
+             'Dew_Point', 'Precipitation', 'Pressure_MSL',
+             'Wind_Speed', 'Wind_Direction']]
+
+       # Handle missing values using forward fill
+    df.ffill(inplace=True)
+
+    # Normalize numerical features
+    scaler = MinMaxScaler()
+    df[df.columns] = scaler.fit_transform(df)
+
+    # Save processed data
+    df.to_csv("data/clean/processed_data.csv", index=False)
+    print("Data Preprocessing Complete!")
+    
+    return df
+
 
 if __name__ == "__main__":
     clean_merge()
@@ -97,5 +135,6 @@ if __name__ == "__main__":
         print(df.head())
         # Save the merged dataset 
         df.to_csv("data/clean/final_merged_clean_dataset.csv", index=False)
+        preprocess_data("data/clean/final_merged_clean_dataset.csv")
     else:
         print("Error")
