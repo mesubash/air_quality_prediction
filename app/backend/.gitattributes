@@ -1,0 +1,2 @@
+# Track all .pkl files using Git LFS
+*.pkl filter=lfs diff=lfs merge=lfs -text
