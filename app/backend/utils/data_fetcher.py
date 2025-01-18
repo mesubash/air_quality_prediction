@@ -23,8 +23,8 @@ API_URL = f"https://www.airnowapi.org/aq/observation/latLong/current/?format=app
 
 # Load datasets
 def load_datasets():
-    df1 = pd.read_csv("data/kaggle_dataset1.csv")
-    df2 = pd.read_csv("data/opendata_dataset2.csv")
+    df1 = pd.read_csv("data/clean/kaggle_dataset1.csv")
+    df2 = pd.read_csv("data/clean/opendata_dataset2.csv")
     return pd.concat([df1, df2], ignore_index=True)
 
 # Fetch API data

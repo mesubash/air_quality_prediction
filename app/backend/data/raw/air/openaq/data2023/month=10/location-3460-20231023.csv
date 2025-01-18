@@ -1,0 +1,24 @@
+location_id,sensors_id,location,datetime,lat,lon,parameter,units,value
+3460,7711,US Diplomatic Post: Phora Durbar Kathmandu-3460,2023-10-23T01:00:00+05:45,27.712463,85.315704,pm25,µg/m³,37.0
+3460,7711,US Diplomatic Post: Phora Durbar Kathmandu-3460,2023-10-23T02:00:00+05:45,27.712463,85.315704,pm25,µg/m³,41.0
+3460,7711,US Diplomatic Post: Phora Durbar Kathmandu-3460,2023-10-23T03:00:00+05:45,27.712463,85.315704,pm25,µg/m³,26.0
+3460,7711,US Diplomatic Post: Phora Durbar Kathmandu-3460,2023-10-23T04:00:00+05:45,27.712463,85.315704,pm25,µg/m³,35.0
+3460,7711,US Diplomatic Post: Phora Durbar Kathmandu-3460,2023-10-23T05:00:00+05:45,27.712463,85.315704,pm25,µg/m³,49.0
+3460,7711,US Diplomatic Post: Phora Durbar Kathmandu-3460,2023-10-23T06:00:00+05:45,27.712463,85.315704,pm25,µg/m³,41.0
+3460,7711,US Diplomatic Post: Phora Durbar Kathmandu-3460,2023-10-23T07:00:00+05:45,27.712463,85.315704,pm25,µg/m³,50.0
+3460,7711,US Diplomatic Post: Phora Durbar Kathmandu-3460,2023-10-23T08:00:00+05:45,27.712463,85.315704,pm25,µg/m³,42.0
+3460,7711,US Diplomatic Post: Phora Durbar Kathmandu-3460,2023-10-23T09:00:00+05:45,27.712463,85.315704,pm25,µg/m³,39.0
+3460,7711,US Diplomatic Post: Phora Durbar Kathmandu-3460,2023-10-23T10:00:00+05:45,27.712463,85.315704,pm25,µg/m³,28.0
+3460,7711,US Diplomatic Post: Phora Durbar Kathmandu-3460,2023-10-23T11:00:00+05:45,27.712463,85.315704,pm25,µg/m³,15.0
+3460,7711,US Diplomatic Post: Phora Durbar Kathmandu-3460,2023-10-23T12:00:00+05:45,27.712463,85.315704,pm25,µg/m³,25.0
+3460,7711,US Diplomatic Post: Phora Durbar Kathmandu-3460,2023-10-23T13:00:00+05:45,27.712463,85.315704,pm25,µg/m³,16.0
+3460,7711,US Diplomatic Post: Phora Durbar Kathmandu-3460,2023-10-23T14:00:00+05:45,27.712463,85.315704,pm25,µg/m³,17.0
+3460,7711,US Diplomatic Post: Phora Durbar Kathmandu-3460,2023-10-23T15:00:00+05:45,27.712463,85.315704,pm25,µg/m³,19.0
+3460,7711,US Diplomatic Post: Phora Durbar Kathmandu-3460,2023-10-23T16:00:00+05:45,27.712463,85.315704,pm25,µg/m³,25.0
+3460,7711,US Diplomatic Post: Phora Durbar Kathmandu-3460,2023-10-23T17:00:00+05:45,27.712463,85.315704,pm25,µg/m³,24.0
+3460,7711,US Diplomatic Post: Phora Durbar Kathmandu-3460,2023-10-23T18:00:00+05:45,27.712463,85.315704,pm25,µg/m³,35.0
+3460,7711,US Diplomatic Post: Phora Durbar Kathmandu-3460,2023-10-23T19:00:00+05:45,27.712463,85.315704,pm25,µg/m³,50.0
+3460,7711,US Diplomatic Post: Phora Durbar Kathmandu-3460,2023-10-23T20:00:00+05:45,27.712463,85.315704,pm25,µg/m³,33.0
+3460,7711,US Diplomatic Post: Phora Durbar Kathmandu-3460,2023-10-23T21:00:00+05:45,27.712463,85.315704,pm25,µg/m³,45.0
+3460,7711,US Diplomatic Post: Phora Durbar Kathmandu-3460,2023-10-23T23:00:00+05:45,27.712463,85.315704,pm25,µg/m³,31.0
+3460,7711,US Diplomatic Post: Phora Durbar Kathmandu-3460,2023-10-24T00:00:00+05:45,27.712463,85.315704,pm25,µg/m³,31.0

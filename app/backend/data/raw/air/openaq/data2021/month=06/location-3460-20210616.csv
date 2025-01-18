@@ -1,0 +1,4 @@
+location_id,sensors_id,location,datetime,lat,lon,parameter,units,value
+3460,7711,US Diplomatic Post: Phora Durbar Kathmandu-3460,2021-06-16T01:00:00+05:45,27.712463,85.315704,pm25,µg/m³,19.0
+3460,7711,US Diplomatic Post: Phora Durbar Kathmandu-3460,2021-06-16T03:00:00+05:45,27.712463,85.315704,pm25,µg/m³,9.0
+3460,7711,US Diplomatic Post: Phora Durbar Kathmandu-3460,2021-06-16T06:00:00+05:45,27.712463,85.315704,pm25,µg/m³,4.0

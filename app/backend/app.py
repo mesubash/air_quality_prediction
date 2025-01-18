@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import joblib
 import numpy as np
-import requests
+import requests 
 from utils.data_fetcher import fetch_live_data
 from utils.forecast import forecast_aqi
 
