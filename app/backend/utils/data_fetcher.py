@@ -1,5 +1,3 @@
-# data_fetcher.py
-
 import requests
 import pandas as pd
 from dotenv import load_dotenv
@@ -23,7 +21,10 @@ def fetch_api_data():
         if response.status_code == 200:
             data = response.json()
             if isinstance(data, list):  # Handle JSON response with list format
-                return pd.DataFrame(data)
+                df = pd.DataFrame(data)
+                print("Fetched Data:")
+                print(df.to_string(index=False))  # Print DataFrame in a readable format
+                return df
         else:
             print(f"Error: Unable to fetch data from API. Status code: {response.status_code}")
     except Exception as e:
@@ -33,3 +34,6 @@ def fetch_api_data():
 # Fetch live data, calling the fetch_api_data function directly
 def fetch_live_data():
     return fetch_api_data()
+
+if __name__ == "__main__":
+    fetch_live_data()

@@ -49,7 +49,7 @@ def clean_merge():
 
 # Combine data
 def merge_data():
-    # Load datasets and fetch API data
+    # Load datasets 
     df_air = pd.read_csv("data/clean/air_sorted_merged_data.csv")
     df_weather = pd.read_csv("data/clean/weather_sorted_merged_data.csv")
 
